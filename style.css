@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,500&family=Roboto+Mono:wght@100&family=Rubik+Distressed&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: #292d32;
+  margin-bottom: 15px;
+  font-family: "Poppins", sans-serif;
+}
+img {
+  width: 100%;
+}
+.w-half {
+  width: 50%;
+}
+.flex {
+  display: flex;
+}
+.section-padding {
+  padding: 50px 0;
+}
+.container {
+  width: 1300px;
+  margin: 0 auto;
+}
+.space-between {
+  justify-content: space-between;
+}
+.align-center {
+  align-items: center;
+}
+.btn {
+  padding: 15px 25px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.primary-text {
+  color: #4e55bb;
+}
+.secoundary-text {
+  color: #8e8c8a;
+}
+a {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+.btn-primary {
+  color: #fff;
+  background-image: linear-gradient(60deg, #404dfa, #7b1bdf);
+}
+.btn-secondary {
+  color: #605f62;
+  border: 1px solid #98969b;
+}
+
+.mainmenu ul {
+  list-style: none;
+}
+
+.mainmenu li {
+  padding: 0 16px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.header-area hr {
+  margin-top: 25px;
+}
+.hero-text h1 {
+  font-size: 60px;
+}
+.hero-text {
+  padding-right: 50px;
+  width: 540px;
+}
+.hero-btn .btn {
+  margin-right: 12px;
+}
+.logo-area img {
+  width: 165px;
+}
+
+.logo-area {
+  margin-top: 180px;
+}
+.hero-text p {
+  line-height: 35px;
+  font-size: 20px;
+  width: 450px;
+  margin-bottom: 40px;
+}
+
+.hero-area {
+  background-image: url(assets/hero-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-image {
+  position: relative;
+}
+
+.image-2 {
+  background-image: url(assets/hero-2.png);
+  right: -60px;
+  top: -37px;
+  position: absolute;
+  z-index: 1;
+  width: 305px;
+  height: 216px;
+  border-radius: 10px;
+}
+
+.image-3 {
+  background-image: url(assets/hero-3.png);
+  left: 53px;
+  bottom: -70px;
+  position: absolute;
+  z-index: 1;
+  width: 305px;
+  height: 216px;
+  border-radius: 10px;
+}
+.logo-area h4 {
+  margin-bottom: 30px;
+}
+.header-area {
+  margin-top: 20px;
+}
+.mainmenu {
+  width: 100%;
+  padding: 0 55px;
+}
+
+.header-btn {
+  min-width: 121px;
+}
